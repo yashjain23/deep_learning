@@ -1,0 +1,5 @@
+mnist_test.csv
+mnist_train.csv
+.vscode
+.venv
+.idea
