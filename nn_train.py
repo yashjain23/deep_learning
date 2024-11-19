@@ -1,5 +1,4 @@
 import pickle
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -134,9 +133,6 @@ def train_neural_network(X, Y, layer_dims, learning_rate=0.01, num_iterations=10
 
 
 if __name__ == "__main__":
-    # Example usage
-    # X = np.random.randn(784, 60000)  # Assuming features are rows and examples are columns
-    # Y = (np.random.rand(1, 60000) > 0.5).astype(int)  # Binary outputs
 
     # Input and Output
     data = np.loadtxt("mnist_train.csv", dtype=int, delimiter=',', skiprows=1)
