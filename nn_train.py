@@ -142,8 +142,8 @@ if __name__ == "__main__":
     Y0[np.arange(len(output)), output] = 1
     Y0 = Y0.T
 
-    layer_dims = [784, 128, 64, 32, 10]  # Example: 4-layer network
-    trained_parameters = train_neural_network(A0, Y0, layer_dims, learning_rate=0.01, num_iterations=1000)
+    layer_dims = [784, 512, 256, 128, 64, 32, 16, 10]  # Example: 7-layer network
+    trained_parameters = train_neural_network(A0, Y0, layer_dims, learning_rate=0.001, num_iterations=10000)
 
 
 
